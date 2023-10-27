@@ -1,0 +1,24 @@
+{
+	"info": {
+		"_postman_id": "02a27546-9514-4ee4-8adc-b03d582d4204",
+		"name": "Ping",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29389685"
+	},
+	"item": [
+		{
+			"name": "HealthCheck",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}ping",
+					"host": [
+						"{{url}}ping"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
